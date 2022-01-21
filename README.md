@@ -20,6 +20,12 @@ other repository within my github in the following link,
 
 https://github.com/falahfakhri-Iraq/gpt_launcher/blob/main/gpt_launcher.py 
 
+It's worth mentioning that, 
+
+Thresholding works best when backscatter tiles are provided on a decibel scale 
+to get Gaussian distribution that is scaled to a range of 0-255, 
+and performed on a small tile that is likely to have a transition between water and not water.
+
 Implement the model.
 --------------------
 dirpath = 'D://WATER_MAP_TEST/'
@@ -37,7 +43,7 @@ Lyer_NAN
 : (None,)
 Layer_shape_after_converted_to_unit8 (1, 21494, 25689)
 The layer threshold is
-: 114
+: 18
 Total time is: 
  00:07:01.82
 
