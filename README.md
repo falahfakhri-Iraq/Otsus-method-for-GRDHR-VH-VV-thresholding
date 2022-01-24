@@ -26,7 +26,7 @@ It's worth mentioning that,
 to get Gaussian distribution that is scaled to a range of 0-255, 
 and performed on a small tile that is likely to have a transition between water and not water.
 
--- In SNAP after the graph has been run and the intesity of the two pol. has been prepared, 
+-- In SNAP after the graph has been run and the intesity of the two pols. has been prepared, 
 in the product explorer expand the bands, right click and select Linear/to from dB. 
 Extract the new dB band and from File tab export it as BigGeotiff. 
 
