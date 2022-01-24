@@ -22,9 +22,13 @@ https://github.com/falahfakhri-Iraq/gpt_launcher/blob/main/gpt_launcher.py
 
 It's worth mentioning that, 
 
-Thresholding works best when backscatter tiles are provided on a decibel scale 
+-- Thresholding works best when backscatter tiles are provided on a decibel scale 
 to get Gaussian distribution that is scaled to a range of 0-255, 
 and performed on a small tile that is likely to have a transition between water and not water.
+
+-- In SNAP after the graph has been run and the intesity of the two pol. has been prepared, 
+in the product explorer expand the bands, right click and select Linear/to from dB. 
+Extract the new dB band and from File tab export it as BigGeotiff. 
 
 Implement the model.
 --------------------
